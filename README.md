@@ -13,6 +13,8 @@
 
 ## 功能
 
+![]https://github.com/cislab-yzu/Project2-4_Smart_contract/blob/master/pictures/1.jpg
+
 ### 發布者
 
 `_AddFarmer(address _accountAddress)`:新增農夫address
