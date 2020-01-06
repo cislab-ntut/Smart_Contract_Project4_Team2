@@ -13,7 +13,7 @@
 
 ## 功能
 
-![]https://github.com/cislab-yzu/Project2-4_Smart_contract/blob/master/pictures/1.jpg
+![](https://github.com/cislab-yzu/Project2-4_Smart_contract/blob/master/pictures/1.jpg)
 
 ### 發布者
 
