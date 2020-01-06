@@ -11,6 +11,10 @@
 
 宅配
 
+## 流程圖
+
+![](https://github.com/cislab-yzu/Project2-4_Smart_contract/blob/master/pictures/process.jpg)
+
 ## 功能
 
 ![](https://github.com/cislab-yzu/Project2-4_Smart_contract/blob/master/pictures/1.jpg)
