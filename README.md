@@ -17,19 +17,19 @@
 
 ## 功能
 
-![](https://github.com/cislab-yzu/Project2-4_Smart_contract/blob/master/pictures/1.jpg)
+![](https://github.com/cislab-yzu/Project2-4_Smart_contract/blob/master/pictures/2.jpg)
 
 ### 發布者
 
-`_AddFarmer(address _accountAddress)`:新增農夫address
+`_AddFarmer(address _accountAddress)`:輸入address，新增農夫address
 
-`_AddGov(address _accountAddress)`:新增政府address
+`_AddGov(address _accountAddress)`:輸入address，新增政府address
 
-`_AddThird(address _accountAddress)`:新增第三方組織address
+`_AddThird(address _accountAddress)`:輸入address，新增第三方組織address
 
-`_AddConsumer(address _accountAddress)`:新增消費者address
+`_AddConsumer(address _accountAddress)`:輸入address，新增消費者address
 
-`_AddDelivery(address _accountAddress)`:新增宅配address
+`_AddDelivery(address _accountAddress)`:輸入address，新增宅配address
 
 ### 農夫
 
@@ -40,6 +40,8 @@
 ### 政府
 
 `GovCheckResume`:取得並檢驗未檢驗的產品，通過之後第三方才能檢驗政府檢驗過的產品。
+
+`GovFine`:政府檢驗消費者重新檢驗的產品，如果沒通過就罰農夫錢。
 
 ### 第三方組織
 
@@ -54,6 +56,8 @@
 ### 宅配
 
 `DeliverProduct(string memory _city, string memory _dict)`:取得宅配清單(縣市，區)，會以區分配清單給宅配業者。
+
+`DeliverFailed(uint _id)`:如果宅配失誤(翻車，產品壞掉...)，輸入履歷ID後執行，賠給消費者$$。
 
 ## 工作分配
 ###  1051524莊子毅 25%
